@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Josh Parsio</title>
+        <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+        <style>
+            body {
+                font-family: 'Titillium Web';
+            }
+            img {
+                width:100%;
+            }
+            .float-right {
+                float:right;
+                width:400px;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <center>
+            <!-- NAVBAR TOP -->
+            <div>
+                <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">  
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jumbotron">Jumbotron</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#navbar">Navbar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#thumbnails">thumbnails</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Collapsible">Collapsible</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- JUMBOTRON -->
+            <div class="container-fluid">
+                <div class="jumbotron" id="jumbotron" style="background-color:#90f">
+                    <!-- BREADCRUMB -->
+                    <ul class="breadcrumb" style="background-color:#90f">
+                        <li>
+                            <a class="page-link btn" href="https://bulbapedia.bulbagarden.net/wiki/Quilava_(Pok%C3%A9mon)" data-toggle="tooltip" title="A community driven encyclopedia">Bulbapadia</a>
+                        </li>
+                        <li>
+                            <a class="page-link btn" href="https://pokemondb.net/pokedex/quilava" data-toggle="tooltip" title="A website that provides stats and info about pokemon">pokemon database</a>
+                        </li>
+                        <li>
+                            <a class="page-link btn" href="http://pokemon.wikia.com/wiki/Quilava" data-toggle="tooltip" title="An encyclopedia that everyone can contribute to.">pokemon wiki</a>
+                        </li>
+                    </ul>
+                    <!-- BREADCRUMB END -->
+                    <h1>
+                        <strong>
+                            Cyndaquil
+                        </strong>
+                        <br>
+                        <small>
+                            Hinoarashi
+                        </small>
+                    </h1>
+                </div>
+            </div>
+            <!-- NAVBAR -->
+            <div class="container-fluid" id="navbar">
+                <nav class="navbar navbar-expand-sm bg-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://jmparsio.github.io/ecs81718/HTML/practice1.html">Activist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://jmparsio.github.io/ecs81718/HTML/table.html">Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://jmparsio.github.io/ecs81718/HTML/FavoriteAnimal.html">Favorite Animal</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- THUMBNAILS -->
+            <div class ="container-fluid" id="thumbnails">
+                <div class="row">
+                    <div class="col-xl-4 img-thumbnail">
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/e/ec/Cyndaquil_Egg.png/250px-Cyndaquil_Egg.png">
+                        <p>Bulbagarden (again)</p>
+                    </div>
+                    <div class="col-xl-4 img-thumbnail">
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png">
+                        <p>Bulbagarden; A pokemon encyclopedia</p>
+                    </div>
+                    <div class="col-xl-4 img-thumbnail">
+                        <img src="https://img00.deviantart.net/9ec6/i/2011/190/b/7/quilava_by_apricolor-d3li985.png">
+                        <p>A website for fan art</p>
+                    </div>
+                </div>
+            </div>
+            <!-- COLLAPSE -->
+            <div id="Collapsible">
+                <button data-toggle="collapse" data-target="#asdfghjkl">Click for secret info</button>
+                <div id="asdfghjkl" class="collapse">
+                    THIS IS QUILAVA NOT CYNDAQUIL<br>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/9/9d/Ash_Cyndaquil.png/250px-Ash_Cyndaquil.png">
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="https://thumbs.gfycat.com/LankyBonyArgentinehornedfrog-size_restricted.gif">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
