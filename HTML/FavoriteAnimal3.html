@@ -9,6 +9,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
         <style>
             body {
                 font-family: 'Titillium Web';
@@ -22,10 +27,30 @@
             }
         </style>
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <center>
+            <!-- NAVBAR TOP -->
+            <div>
+                <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">  
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jumbotron">Jumbotron</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#navbar">Navbar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#thumbnails">thumbnails</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Collapsible">Collapsible</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- JUMBOTRON -->
             <div class="container-fluid">
-                <div class="jumbotron" style="background-color:#90f">
+                <div class="jumbotron" id="jumbotron" style="background-color:#90f">
                     <ul class="breadcrumb" style="background-color:#90f">
                         <li>
                             <a class="page-link btn" href="https://bulbapedia.bulbagarden.net/wiki/Quilava_(Pok%C3%A9mon)">Bulbapadia</a>
@@ -48,7 +73,8 @@
                     </h1>
                 </div>
             </div>
-            <div class="container">
+            <!-- NAVBAR -->
+            <div class="container-fluid" id="navbar">
                 <nav class="navbar navbar-expand-sm bg-light">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -63,7 +89,8 @@
                     </ul>
                 </nav>
             </div>
-            <div class ="container-fluid">
+            <!-- THUMBNAILS -->
+            <div class ="container-fluid" id="thumbnails">
                 <div class="row">
                     <div class="col-xl-4 img-thumbnail">
                         <img src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png">
@@ -79,10 +106,13 @@
                     </div>
                 </div>
             </div>
-            <button data-toggle="collapse" data-target="#asdfghjkl">Click for secret info</button>
-            <div id="asdfghjkl" class="collapse">
+            <!-- COLLAPSE -->
+            <div id="Collapsible">
+                <button data-toggle="collapse" data-target="#asdfghjkl">Click for secret info</button>
+                <div id="asdfghjkl" class="collapse">
                 THIS IS QUILAVA NOT CYNDAQUIL
                 <img src="https://thumbs.gfycat.com/LankyBonyArgentinehornedfrog-size_restricted.gif">
+            </div>
             </div>
         </center>
     </body>
