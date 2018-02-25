@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <div>
         <title>Josh Parsio</title>
         <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
         <meta charset="utf-8">
@@ -19,6 +20,7 @@
             $('[data-toggle="popover"]').popover(); 
             });
         </script>
+        </div>
         <style>
             body {
                 font-family: 'Titillium Web';
@@ -35,6 +37,12 @@
                 padding-right:100px;
                 padding-top:50px;
                 padding-bottom:50px;
+            }
+                .carousel-inner img {
+                width: 40%;
+            }
+            .sm {
+                width:500px;
             }
         </style>
     </head>
@@ -111,15 +119,15 @@
             <div class ="container-fluid" id="thumbnails">
                 <div class="row">
                     <div class="col-xl-4 img-thumbnail">
-                        <img src="https://cdn.bulbagarden.net/upload/thumb/e/ec/Cyndaquil_Egg.png/250px-Cyndaquil_Egg.png">
+                        <img class="border" src="https://cdn.bulbagarden.net/upload/thumb/e/ec/Cyndaquil_Egg.png/250px-Cyndaquil_Egg.png">
                         <p>Bulbagarden (again)</p>
                     </div>
                     <div class="col-xl-4 img-thumbnail">
-                        <img src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png">
+                        <img class="border" src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png">
                         <p>Bulbagarden; A pokemon encyclopedia</p>
                     </div>
                     <div class="col-xl-4 img-thumbnail">
-                        <img src="https://img00.deviantart.net/9ec6/i/2011/190/b/7/quilava_by_apricolor-d3li985.png">
+                        <img class="border" src="https://img00.deviantart.net/9ec6/i/2011/190/b/7/quilava_by_apricolor-d3li985.png">
                         <p>A website for fan art</p>
                     </div>
                 </div>
@@ -138,6 +146,35 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <!-- CAROUSEL -->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner" style="background-color:black;">
+                    <div class="carousel-item active">
+                        <img src="https://t2.rbxcdn.com/768e6ba104650f8339c02720d9a03718">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/9/9b/155Cyndaquil.png/250px-155Cyndaquil.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/157.png">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </center>
     </body>
