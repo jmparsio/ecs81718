@@ -9,6 +9,7 @@ nav {
 }
 body {
     background-color:#282828;
+    font-family:Didact Gothic;
 }
 .jumbotron {
     background-color:#0c0032;
@@ -20,9 +21,11 @@ body {
 .background-fx {
     background-color:#3500d3;
 }
-.color {
-    height:50px;
-    background-color:blue;
+.img-fix {
+    width:100%;
+    border-color:#3500d3;
+    border-width:5px;
+    border-style:solid;
 }
 /* 
 0c0032
