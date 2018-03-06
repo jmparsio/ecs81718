@@ -1,5 +1,6 @@
 p {
     color:#FFF;
+    text-align:left;
 }
 h1 {
     color:#FFF;
@@ -10,27 +11,18 @@ nav {
 body {
     background-color:#282828;
     font-family:Didact Gothic;
+    text-align:center;
 }
 .jumbotron {
     background-color:#0c0032;
 }
-.jumbotron-color {
+.jumbotron-text {
     color:#FFF;
-    text-align:center;
-}
-.background-fx {
-    background-color:#3500d3;
+    font-size:500%;
 }
 .img-fix {
-    width:100%;
-    border-color:#3500d3;
-    border-width:5px;
+    width:50%;
+    border-color:#240090;
+    border-width:10px;
     border-style:solid;
 }
-/* 
-0c0032
-190061
-240090
-3500d3
-282828
-*/
