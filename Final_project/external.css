@@ -19,6 +19,12 @@ body {
 .jumbotron-text {
     color:#FFF;
     font-size:500%;
+<<<<<<< HEAD
+=======
+}
+.background-fx {
+    background-color:#3500d3;
+>>>>>>> 91d931722d5573eda04eb44997a61a9a7c5e6411
 }
 .img-fix {
     width:50%;
