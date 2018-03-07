@@ -24,8 +24,8 @@ body {
     border-color:#240090;
     border-width:10px;
     border-style:solid;
+    border-radius:25px;
 }
-a {
-    color:#FFF;
-    background-color:#190061;
+.b-rice {
+    background-color:#3500d3;
 }
