@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins"  rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="external.css">
+        <title>Main Dish #2</title>
+    </head>
+    <body style="font-family:Poppins;">
+        <nav class="navbar navbar-inverse" style="background-color: #DDDDDD; border-bottom-style: ridge; border-color: #BBBBBB; border-bottom-width:5px; border-left-style: ridge; border-left-width:5px;">
+            <div class="container-fluid">
+                <div class="navbar-header" style="height:100px;">
+                    <br>
+                    <a class="navbar-brand navbar-btn" style="color: #00889B; font-size: 30px">Best Disease</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><br><br><a href="Page1.html" style="color: #66B9BF;">Page 1</a></li>
+                    <li><br><br><a href="Page2.html" style="color: #66B9BF;">Page 2</a></li>
+                    <li><br><br><a href="Page3.html" style="color: #66B9BF;">Page 3</a></li>
+                    <li><br><br><a href="Page4.html" style="color: #66B9BF;">Page 4</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+               <div class="col-xs-3" style="background-color: #DDDDDD; border-bottom-style: ridge; border-color: #BBBBBB; border-bottom-width:5px; border-left-style: ridge; border-left-width:5px; height: 400px">
+                   <center>
+                       <h1 style="color: #00889B; font-size: 30px;">Best Disease</h1>
+                       <p style="color: #00889B; font-size: 10px;">(Vitelliform macular dystrophy)</p>
+                       <hr style="background-color:#BBBBBB; height:5px;">
+                   </center>
+                   <p style="color: #66B9BF;">
+                       Best Disease affects a tiny part of the retina in the back of your eye, which is called the macula. It causes problems in central vision, but does not lead to total loss of vision or pain. The disorder starts causing changes in ages 3-15, but does not affect vision until later in life. This disease normally affects both eyes, but sometimes it affects only one.
+                   </p>
+               </div>
+               <div class="col-xs-2">
+               </div>
+               <div class="col-xs-5" style="background-color: #DDDDDD; border-bottom-style: ridge; border-color: #BBBBBB; border-bottom-width:5px; border-left-style: ridge; border-left-width:5px; height: 400px">
+                   <br>
+                   <img src="https://www.naturaleyecare.com/eye-conditions/images/bests-NEC-lg.png" style="border-top-style: ridge; border-color: #BBBBBB; border-top-width:5px; border-right-style: ridge; border-right-width:5px; height: 80%; width: 100%;">
+                   <br>
+                   <center>
+                       <p style="color: #66B9BF;">An eye that is affected by Best Disease. Note how fatty material distorts the retina of the eye.</p>
+                   </center>
+               </div>
+               <div class="col-xs-2">
+               </div>
+            </div>
+        </div>
+        <a class="btn" style="background-color:#66B9BF; color:white" href="page5.html">Citations</a>
+    </body>
+</html>
